@@ -119,7 +119,6 @@ const findAllReportedsFromUser = async (request, reply) => {
         const findAllReports = await Report.find({
           reported_user: id,
         }).exec();
-
         if (!findAllReports) {
           return await errorHandler(
             404,
@@ -128,11 +127,12 @@ const findAllReportedsFromUser = async (request, reply) => {
             request,
             reply,
           );
+        } else {
+          await reply.code(200).send({
+            success: true,
+            data: findAllReports,
+          });
         }
-        await reply.code(200).send({
-          success: true,
-          data: findAllReports,
-        });
       }
     }
   } catch (error) {
