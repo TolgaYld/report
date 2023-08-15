@@ -1,0 +1,13 @@
+{
+    "post-not-found": "Paylaşım bulunamadı",
+    "report-not-created": "Şikayet oluşturulamadı",
+    "reports-not-found": "Şikayetler bulunamadı",
+    "report-not-found": "Şikayet bulunamadı",
+    "report-update-failed": "Güncellemede hata oluştu",
+    "user-password-update-failed": "Şifrenin güncellenmesinde hata oluştu",
+    "email-in-use": "E-Posta adresi kullanılmaktadır",
+    "authentication-failed": "E-Posta adresi yada parola yanlış",
+    "user-is-banned": "Hesabınız erişime engellendi. Daha fazla bilgi için bir e-posta yazın",
+    "report-delete-failed": "Şikayet silinemedi",
+    "unauthorized": "İzinsiz erişim"
+}

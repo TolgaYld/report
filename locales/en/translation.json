@@ -1,0 +1,13 @@
+{
+    "post-not-found": "Post not found",
+    "report-not-created": "Report could not created",
+    "reports-not-found": "Reports not found",
+    "report-not-found": "Report not found",
+    "report-update-failed": "Update failed",
+    "user-password-update-failed": "Update password failed",
+    "email-in-use": "E-Mail is already in use",
+    "authentication-failed": "Wrong e-mail or password",
+    "user-is-banned": "User has been banned. Write an email for more information",
+    "report-delete-failed": "Couldn't delete report",
+    "unauthorized": "Unauthorized access"
+}
